@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+
 }
 
 body {
@@ -14,9 +15,11 @@ body {
 a {
   text-decoration: none;
   color: #fff;
+
 }
 
 i {
+
   font-size: 1.4rem;
   font-weight: 600;
   margin-right: 10px;
@@ -37,6 +40,8 @@ i {
 .btn:hover {
   background-color: #e9b913;
   color: #fff;
+  
+
 }
 
 .carousel-img {
@@ -114,27 +119,34 @@ i {
 
 .nav-link:hover {
   color: #e9b913;
+
 }
 .nav-link:visited {
   color: white;
 }
 .collapse {
   background-color: transparent;
+
 }
 
 .navbar-collapse a {
   cursor: pointer;
 }
 
+
 .navbar-toggler {
-  background-color: #fff;
+
+ background-color: #fff;
+
 }
+
 
 .white-icon {
   color: white; /* Set the color to white */
 }
 .navbar-scrolled {
   background-color: white !important;
+
 }
 
 .scrolled {
@@ -146,30 +158,40 @@ i {
   color: black !important;
 }
 
+
 .scrolled .navbar-brand .logo-name {
   color: black;
 }
 
 .dropdown-menu {
+ 
   margin-right: 10px;
   background-color: rgba(0, 0, 0, 0.9);
   padding: 20px 30px 20px 2px;
   border: none;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+
 }
 
 .dropdown-item {
   color: #fff;
+
+
+
 }
 
 .dropdown-item:hover {
   background-color: rgba(0, 0, 0, 0.3);
-  box-shadow: 0 2px 4px rgba(154, 53, 236, 0.384);
+  box-shadow:0 2px 4px rgba(154, 53, 236, 0.384);
   color: #fff;
   margin-left: 5px;
+
+
 }
 
 .carousel-caption {
+
+
   margin-top: -25px;
 }
 
@@ -184,7 +206,7 @@ i {
   /* Adjust font size */
 }
 
-.faqs {
+.faqs{
   background-color: #1c1c1c;
   color: #fff;
   min-height: 80vh;
@@ -194,31 +216,34 @@ i {
   align-items: center;
 }
 
-.title {
+.title{
   font-size: 2.5rem;
   margin: 2rem 0rem;
+
 }
-.faq {
+.faq{
   max-width: 700px;
   margin-top: 2rem;
   padding-bottom: 1rem;
   border-bottom: 2px solid #fff;
   cursor: pointer;
+
 }
 
-.question {
+.question{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.question h3 {
+.question h3{
   font-size: 1.2rem;
+
 }
 .answer {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 1.4s ease;
+  transition:  max-height 1.4s ease;
 }
 .answer p {
   padding-top: 1rem;
@@ -226,65 +251,66 @@ i {
   font-size: 1rem;
 }
 
-.faq.active .answer {
+.faq.active .answer{
   max-height: 300px;
   animation: fade 1s ease-in-out;
 }
 
-.faq.active i {
+.faq.active i{
   transform: rotate(180deg);
 }
 
-i {
+i{
   transition: transform 0.5s ease-in;
 }
 
-@keyframes fade {
+@keyframes fade{
   from {
     opacity: 0;
     transform: translateY(-10px);
   }
-  to {
+  to{
     opacity: 1;
     transform: translateY(0px);
   }
 }
 
-.touch {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+.touch{
+  box-shadow:0 2px 4px rgba(0,0,0,0.5);
 }
 
-.image-area {
+
+.image-area{
+ 
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.image-area img {
+.image-area img{
   width: 80%;
 }
-.form-area {
+.form-area{
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 3rem;
 }
-.form-header {
+.form-header{
   color: #c97440;
 }
-input,
-textarea {
+input, textarea{
   border: none !important;
-  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 5px 10px 10px rgba(0,0,0,0.05);
 }
 
-input:focus,
-textarea:focus {
+input:focus, textarea:focus{
   outline: 0 !important;
   box-shadow: none !important ;
   border: 1px solid #f1a779 !important;
+
 }
 
-.faqs {
+.faqs{
   background-color: #1c1c1c;
   color: #fff;
   min-height: 80vh;
@@ -294,31 +320,34 @@ textarea:focus {
   align-items: center;
 }
 
-.title {
+.title{
   font-size: 2.5rem;
   margin: 2rem 0rem;
+
 }
-.faq {
+.faq{
   max-width: 700px;
   margin-top: 2rem;
   padding-bottom: 1rem;
   border-bottom: 2px solid #fff;
   cursor: pointer;
+
 }
 
-.question {
+.question{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.question h3 {
+.question h3{
   font-size: 1.2rem;
+
 }
 .answer {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 1.4s ease;
+  transition:  max-height 1.4s ease;
 }
 .answer p {
   padding-top: 1rem;
@@ -326,135 +355,30 @@ textarea:focus {
   font-size: 1rem;
 }
 
-.faq.active .answer {
+.faq.active .answer{
   max-height: 300px;
   animation: fade 1s ease-in-out;
 }
 
-.faq.active i {
+.faq.active i{
   transform: rotate(180deg);
 }
 
-i {
+i{
   transition: transform 0.5s ease-in;
 }
 
-@keyframes fade {
+@keyframes fade{
   from {
     opacity: 0;
     transform: translateY(-10px);
   }
-  to {
+  to{
     opacity: 1;
     transform: translateY(0px);
   }
 }
 
-.services {
-  margin-top: 45px;
-  padding: 20px;
-  background-color: #f3f3f5;
-  margin-bottom: 45px;
-}
-.section-header p {
-  margin-bottom: 45px;
-  color: #666;
-}
-.section-header h2 {
-  white-space: nowrap;
-  color: #c97440;
-  font-weight: 600;
-}
-.single-services {
-  height: 300px;
-  margin-bottom: 20px;
-  padding: 30px 15px;
-  background-color: #fff;
-  border-radius: 15px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-  transition: transform 0.6s ease;
-}
-
-.single-services:hover {
-  transform: translateY(-10px);
-}
-.single-services h2 {
-  font-size: 25px;
-}
-.single-services p {
-  color: #666;
-}
-.single-services span {
-  font-size: 65px;
-  margin-bottom: 30px;
-}
-.overlap{
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  background:#1c1c1c;
-}
-.containerbox{
-  width: 950px;
-  margin: auto;
-  height: 400px;
-  background-color: #f3f3f5;
-  box-shadow: 0 4px 6px rgba(166, 177, 83, 0.5);
-  padding: 4rem 5rem;
-  position: relative;
-}
-.textblock{
-  width:45%;
-}
-.textblock .title{
- text-align: center;
- text-transform: uppercase;
- color: #333;
- margin-bottom: 0.5rem;
- margin-top: -8px;
-}
-.textblock .sub-title{
-  text-align: center;
- font-size: 1.5rem;
-  color:#c97440;
-  margin-bottom: 1.8rem;
- }
- .textblock p{
-  margin-bottom: 1.3rem;
-  color: #333;
- }
-.containerbox img{
-  height: 300px;
-  position: absolute;
-  top: 16%;
-  right: -15%;
-  box-shadow: 5px 4px 10px rgba(37, 37, 37, 0.05);
-}
-
-.fuelreport {
-  background-color: #fff;
-  width: 80vw;
-  margin: auto;
-  margin-top: 40px;
-  box-shadow: 4px 4px 4px 4px rgba(207, 205, 205, 0.8);
-  transition: box-shadow 0.3s ease; /* Added transition for smooth hover effect */
-}
-.fuelreport:hover{
-  box-shadow: 0 10px 20px rgba(114, 58, 187, 0.774);
-}
-.fuelreport h1{
-  font-size: 35px;
-  color: #333;
-}
-.fuelreport p{
-  font-size: 17px;
-  color: #333;  
-}
-.fuelreport img{
-height: 250px;
-width: 300px;
-border:2px solid #e9b913;
-}
 
 
 /* media queries */
@@ -463,6 +387,7 @@ border:2px solid #e9b913;
   .logo {
     margin-right: 40px;
     padding-right: 0;
+
   }
 
   .nav-item {
@@ -471,48 +396,13 @@ border:2px solid #e9b913;
 
   .carousel-item img {
     width: 100%;
+
     height: 70vh;
+
   }
-  .containerbox{
-    width: 850px;
-    margin: auto;
-    height: 380px;
-    background-color: #f3f3f5;
-    box-shadow: 0 4px 6px rgba(166, 177, 83, 0.5);
-    padding: 3rem 4rem;
-    position: relative;
-  }
-  .textblock{
-    width:40%;
-  }
-  .textblock .title{
-    font-size: 30px;
-   text-align: center;
-   text-transform: uppercase;
-   color: #333;
-   margin-bottom: .5rem;
-  }
-  .textblock .sub-title{
-    text-align: center;
-    font-size: 1rem;
-    color:#c97440;
-    margin-bottom: 1.8rem;
-   }
-   .textblock p{
-    margin-bottom: 1rem;
-    color: #333;
-   }
-  .containerbox img{
-    height: 280px;
-    position: absolute;
-    top: 16%;
-    right: -7%;
-    box-shadow: 5px 4px 10px rgba(37, 37, 37, 0.05);
-  }
-  .overlap{
-    height: 50vh;
+  
 }
-}
+
 
 @media (max-width: 991px) {
   .navbar-collapse {
@@ -523,87 +413,28 @@ border:2px solid #e9b913;
     background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
   }
-  .scrolled .navbar-collapse {
+  .scrolled .navbar-collapse{
     background-color: #fff;
   }
   .scrolled .dropdown-menu {
+ 
+  
     background-color: #fff;
-  }
-
-  .scrolled .dropdown-item {
-    color: #1c1c1c;
-  }
-  .containerbox{
-    width: 700px;
-    margin: auto;
-    height: 380px;
-    background-color: #f3f3f5;
-    box-shadow: 0 4px 6px rgba(166, 177, 83, 0.5);
-    padding: 3rem 4rem;
-    position: relative;
-  }
-  .textblock{
-    width:50%;
-  }
-  .textblock .title{
-    font-size: 30px;
-   text-align: center;
-   text-transform: uppercase;
-   color: #333;
-   margin-bottom: .5rem;
-  }
-  .textblock .sub-title{
-    text-align: center;
-    font-size: 1rem;
-    color:#c97440;
-    margin-bottom: 1.8rem;
-   }
-   .textblock p{
-    margin-bottom: 1rem;
-    color: #333;
-   }
-  .containerbox img{
-    height: 280px;
-    position: absolute;
-    top: 16%;
-    right: -3%;
-    box-shadow: 5px 4px 10px rgba(37, 37, 37, 0.05);
-   width: 35vw;
-  }
-
-  .fuelreport {
-    background-color: #fff;
-    width: 80vw;
-    margin: auto;
-    margin-top: 40px;
-    box-shadow: 4px 4px 4px 4px rgba(207, 205, 205, 0.8);
-    transition: box-shadow 0.3s ease; /* Added transition for smooth hover effect */
    
-  }
-  .fuelreport:hover{
-    box-shadow: 0 10px 20px rgba(114, 58, 187, 0.774);
-  }
-  .fuelreport h1{
-    font-size: 28px;
-    color: #333;
-  }
-  .fuelreport p{
-    font-size: 17px;
-    color: #333;  
-  }
-  .fuelreport img{
-  height: 250px;
-  border:2px solid #e9b913;
-  margin-left:7rem;
-  width: 350px;
+  
   }
   
-
-
-
+  .scrolled .dropdown-item {
+    color: #1c1c1c;
+  
+  
+  
+  }
 }
 
+
 @media (max-width: 798px) {
+
   .nav-item {
     margin-left: 2.5rem;
   }
@@ -616,10 +447,13 @@ border:2px solid #e9b913;
     width: 100%;
 
     height: 60vh;
-  }
 
+  }
+  
   .carousel-caption {
+
     width: 100%;
+
     padding: 20px;
     margin-top: -15px;
   }
@@ -640,94 +474,94 @@ border:2px solid #e9b913;
     /* Adjust font size */
   }
 
+
+
   .navbar-brand {
+
     font-size: 2rem;
+
     margin-left: 1.5rem;
   }
 
   .navbar-collapse {
     position: absolute;
-    top: 6vh;
+    top: 10vh;
     background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
   }
 
-  .title {
+ 
+  .title{
     font-size: 2.2rem;
     margin: 2rem 1rem;
     white-space: nowrap;
+  
   }
-  .faq {
+  .faq{
     max-width: 500px;
-
+   
     margin: 2rem 3rem 0 3rem;
     padding-bottom: 1rem;
+    
+  
   }
-
-  .question h3 {
+  
+  
+  
+  .question h3{
     font-size: 1.2rem;
+  
   }
   .answer {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 1.4s ease;
+    transition:  max-height 1.4s ease;
   }
   .answer p {
     padding-top: 1rem;
     line-height: 1.5;
     font-size: 1rem;
   }
-
-  .faq.active .answer {
+  
+  .faq.active .answer{
     max-height: 300px;
+   
   }
-
-  .about {
+  
+  .about{
     margin: 0px;
   }
-  .about-container {
+  .about-container{
     width: 100%;
     flex-direction: column;
     margin: 0px;
     padding: 0px 40px;
   }
-  .about-content {
+  .about-content{
     width: 100%;
     margin: 35px 0px;
   }
-  .about-content h2 {
+  .about-content h2{
     font-size: 30px;
   }
-  .about-content p {
+  .about-content p{
     font-size: 18px;
     margin-bottom: 20px;
   }
-  .about-content button {
+  .about-content button{
     font-size: 16px;
     padding: 8px 16px;
   }
 
-  .about-img {
+  .about-img{
     width: 100%;
   }
-  .containerbox{
-    width: 90%;
-  }
-  .containerbox .textblock{
-    width: 100%;
-  }
-  .containerbox img{
-    display: none;
-  }
-  .fuelreport img{
-    height: 250px;
-    border:2px solid #e9b913;
-    margin:auto;
-    width: 300px;
-    }
+
 }
 
+
 @media (max-width: 480px) {
+
   .navbar-brand {
     margin-left: 0;
   }
@@ -742,21 +576,26 @@ border:2px solid #e9b913;
   }
 
   .navbar-toggler {
+
     padding: 3px 6px;
   }
-
+  
   .navbar-toggler-icon {
     width: 25px;
   }
-
+  
   .carousel-item img {
+
+
     height: 40vh;
+
   }
 
   .carousel-caption {
     width: 100%;
     padding: 13px;
     margin-top: -15px;
+
   }
 
   .carousel-caption h3 {
@@ -765,6 +604,7 @@ border:2px solid #e9b913;
   }
 
   .carousel-caption p {
+
     margin: 10px;
     font-size: 13px;
   }
@@ -774,51 +614,47 @@ border:2px solid #e9b913;
     /* Adjust font size */
     white-space: wrap;
     padding: 7px 13px;
+
   }
 
-  .title {
+
+  .title{
     font-size: 1.6rem;
     margin: 2rem 1rem;
     white-space: nowrap;
+  
   }
 
-  .faq {
+  .faq{
     max-width: 500px;
-
+   
     margin: 2rem 3rem 0 3rem;
     padding-bottom: 1rem;
+    
+  
   }
-
-  .question h3 {
+  
+  
+  
+  .question h3{
     font-size: 1rem;
+  
   }
   .answer {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 1.4s ease;
+    transition:  max-height 1.4s ease;
   }
   .answer p {
     padding-top: 1rem;
     line-height: 1.3;
     font-size: 0.9rem;
   }
-
-  .faq.active .answer {
+  
+  .faq.active .answer{
     max-height: 300px;
+   
   }
-  .textblock .title{
-    font-size: 25px;
-  }
-  .containerbox{
-    width: 90%;
-  }
-  .containerbox .textblock{
-    width: 100%;
-  }
-  .fuelreport img{
-    height: 200px;
-    border:2px solid #e9b913;
-    margin-left:1rem;
-    width: 200px;
-    }
+  
+  
 }
