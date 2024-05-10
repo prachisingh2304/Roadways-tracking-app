@@ -344,7 +344,7 @@ input:focus, textarea:focus{
   margin: auto;
  
 }
-img{
+.about-img img{
   width: 100%;
   height: auto;
   border-radius: 10px;
@@ -373,11 +373,12 @@ img{
   color: white;
   border-radius: 10px ;
  
-  box-shadow: 0px 2px 10px rgba(227, 230, 50, 0.596);
+ 
   overflow: hidden;
   transition: transform 0.6s ease;
  }
  .card:hover{
+  box-shadow: 0px 2px 10px rgba(227, 230, 50, 0.596);
   transform: translateY(-20px);
  }
  
