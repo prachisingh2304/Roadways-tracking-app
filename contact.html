@@ -140,15 +140,15 @@
               </ul>
             </li>
           </ul>
-          <button class="btn  mx-4" type="submit">Free Demo</button>
+          <button class="btn  mx-4" type="submit"><a href="contact.html">Free Demo</a></button>
         </div>
       </div>
     </nav>
 
     
     
-    <section class="get-in-touch my-5 py-5">
-      <div class="container my-5">
+    <section class="get-in-touch my-5 py-3">
+      <div class="container my-2">
         <div class="p-2 text-center touch bg-body-tertiary rounded-3 my-3">
           <div class="row col-md-12 main">
             <div class="col-md-6 image-area">
@@ -160,19 +160,23 @@
               </div>
               <form action="" class="form">
                 <div class="form-floating mb-3">
-                  <input type="text" class="form-control" id="floatInput" placeholder="Name" />
-                  <label for="floatInput"><i class="bi bi-person-fill"></i>Name</label>
+                    <input type="text" class="form-control" id="nameInput" placeholder="Name" />
+                    <label for="nameInput"><i class="bi bi-person-fill"></i>Name</label>
                 </div>
                 <div class="form-floating mb-3">
-                  <input type="email" class="form-control" id="floatInput" placeholder="Email Address" />
-                  <label for="floatInput"><i class="bi bi-envelope-fill"></i>Email</label>
+                    <input type="tel" class="form-control" id="mobileInput" placeholder="Mobile number" pattern="[0-9]{10}" required/>
+                    <label for="mobileInput"><i class="bi bi-phone-fill"></i>Mobile Number</label>
                 </div>
                 <div class="form-floating mb-3">
-                  <textarea type="text" class="form-control" id="floatInput" placeholder="Message"></textarea>
-                  <label for="floatInput"><i class="bi bi-chat-left-dots-fill"></i>Message</label>
+                    <input type="email" class="form-control" id="emailInput" placeholder="Email Address" required/>
+                    <label for="emailInput"><i class="bi bi-envelope-fill"></i>Email</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" id="messageInput" placeholder="Message"></textarea>
+                    <label for="messageInput"><i class="bi bi-chat-left-dots-fill"></i>Message</label>
                 </div>
                 <button type="submit" class="btn btn-custom">Submit</button>
-              </form>
+            </form>
             </div>
           </div>
         </div>

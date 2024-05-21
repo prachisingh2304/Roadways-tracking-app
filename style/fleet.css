@@ -76,7 +76,6 @@ i {
 
 .logo-name {
   margin-left: 10px;
-
   font-size: 1.8rem;
   color: #fff;
   font-weight: 500;
@@ -509,9 +508,7 @@ border:2px solid #e9b913;
     right: -7%;
     box-shadow: 5px 4px 10px rgba(37, 37, 37, 0.05);
   }
-  .overlap{
-    height: 50vh;
-}
+ 
 }
 
 @media (max-width: 991px) {
@@ -659,7 +656,6 @@ border:2px solid #e9b913;
   }
   .faq {
     max-width: 500px;
-
     margin: 2rem 3rem 0 3rem;
     padding-bottom: 1rem;
   }
@@ -784,7 +780,6 @@ border:2px solid #e9b913;
 
   .faq {
     max-width: 500px;
-
     margin: 2rem 3rem 0 3rem;
     padding-bottom: 1rem;
   }

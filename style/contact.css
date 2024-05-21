@@ -279,7 +279,10 @@ i{
  
   background-color: rgba(5, 12, 53, 0.7);
 }
-
+.form-control {
+  overflow: hidden;
+  resize: none; /* Prevents manual resizing */
+}
 
 .image-area{
  

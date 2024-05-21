@@ -334,6 +334,40 @@ i {
 }
 
 
+.touch{
+  box-shadow:0 2px 4px rgba(0,0,0,0.5);
+}
+
+
+.image-area{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-area img{
+  width: 80%;
+}
+.form-area{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+}
+.form-header{
+  color: #c97440;
+}
+input, textarea{
+  border: none !important;
+  box-shadow: 5px 10px 10px rgba(0,0,0,0.05);
+}
+
+input:focus, textarea:focus{
+  outline: 0 !important;
+  box-shadow: none !important ;
+  border: 1px solid #f1a779 !important;
+
+}
 
 
 
@@ -398,7 +432,7 @@ i {
 
   .card {
     width: calc(42% - 20px); /* Two cards per row with 20px gap */
-    height:35vh;
+    height:auto;
     
   }
 }

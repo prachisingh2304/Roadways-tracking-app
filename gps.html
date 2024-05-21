@@ -21,124 +21,219 @@
 
   <header>
 
-    <nav class="navbar navbar-expand-lg  fixed-top" onscroll="changeNavbarColor()">
-      <div class="container-fluid  my-0 py-0 mx-2 ">
-        <a class="navbar-brand" href="index.html">
-          <div class="logo d-flex align-items-center mx-2">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="map-marker-shield">
-              <path fill="#e9b913"
-                d="M14.41,6.53a2.24,2.24,0,0,1-1.82-.39,1,1,0,0,0-1.18,0,2.24,2.24,0,0,1-1.82.39,1,1,0,0,0-.84.2,1,1,0,0,0-.37.78v2.9A4.14,4.14,0,0,0,10,13.74l1.37,1a1,1,0,0,0,1.18,0l1.37-1a4.14,4.14,0,0,0,1.66-3.33V7.51a1,1,0,0,0-.37-.78A1,1,0,0,0,14.41,6.53Zm-.79,3.88a2.15,2.15,0,0,1-.85,1.73l-.77.57-.77-.57a2.15,2.15,0,0,1-.85-1.73V8.57A4.22,4.22,0,0,0,12,8.12a4.22,4.22,0,0,0,1.62.45Zm6.84-.78A8.5,8.5,0,0,0,7.3,3.36,8.56,8.56,0,0,0,3.54,9.63,8.46,8.46,0,0,0,6,16.46l5.3,5.31a1,1,0,0,0,1.42,0L18,16.46A8.46,8.46,0,0,0,20.46,9.63ZM16.6,15.05,12,19.65l-4.6-4.6A6.49,6.49,0,0,1,5.53,9.83,6.57,6.57,0,0,1,8.42,5a6.47,6.47,0,0,1,7.16,0,6.57,6.57,0,0,1,2.89,4.81A6.49,6.49,0,0,1,16.6,15.05Z">
-              </path>
-            </svg>
-            <div class="logo-name ms-2">RoadWays</div>
-
-          </div>
-        </a>
-        <button class="navbar-toggler mx-3 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse   navbar-collapse py-3 " id="navbarScroll">
-          <ul class="navbar-nav ms-auto me-0 my-2 mx-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 700px;">
-            <li class="nav-item dropdown">
-              <a class="nav-link  " href="index.html" role="button" aria-expanded="false">
-                Home
-              </a>
-
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link  dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Product
-              </a>
-
-              <ul class="dropdown-menu">
-
-                <li><a class="dropdown-item" href="fleet.html"><i class="uil uil-pump" style="color: green;"></i> Fleet Management Software</a></li>
-                <li><a class="dropdown-item" href="telematic.html"><i class="uil uil-webcam" style="color: palevioletred;"></i> Video
-                    Telematics Software</a></li>
-                <li><a class="dropdown-item" href="driver.html"><i class="uil uil-streering" style="color: rgb(13, 13, 235);"></i>
-                    Driver Behaviour Monitoring </a></li>
-                <li><a class="dropdown-item" href="route.html"><i class="uil uil-sign-alt" style="color: yellow;"></i>Route
-                    Planning</a></li>
-
-                <li><a class="dropdown-item" href="electric.html"><i class="uil uil-bus-school"
-                      style="color: rgb(140, 18, 189);"></i>
-                    Electric Vehicle</a></li>
-
-
-
-              </ul>
-            </li>
-
-
-
-            <li class="nav-item dropdown">
-              <a class="nav-link  dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Industries
-              </a>
-              <ul class="dropdown-menu">
-
-                <li><a class="dropdown-item" href="#"><i class="uil uil-truck"
-                      style="color: rgb(20, 223, 162);"></i>Logistics and Transport</a></li>
-                <li><a class="dropdown-item" href="#"><i class="uil uil-jackhammer"
-                      style="color: rgb(128, 0, 85);"></i>Construction and Mining</a></li>
-                <li><a class="dropdown-item" href="#"><i class="uil uil-channel-add"
-                      style="color: rgb(231, 231, 3);"></i>Field Force Management </a></li>
-                <li><a class="dropdown-item" href="#"><i class="uil uil-bus" style="color: rgb(13, 13, 235);"></i>Public
-                    Transport</a></li>
-
-
-                <li><a class="dropdown-item" href="#"><i class="uil uil-ambulance"
-                      style="color: palevioletred;"></i>Medical and Healthcare</a></li>
-                <li><a class="dropdown-item" href="#"><i class="uil uil-car-wash" style="color: purple;"></i>Rental
-                    Vehicles</a></li>
-                <li><a class="dropdown-item" href="#"><i class="uil uil-syringe"
-                      style="color: rgb(221, 96, 24);"></i>Phlebotomy</a></li>
-                <li><a class="dropdown-item" href="#"><i class="uil uil-trash-alt" style="color: green;"></i>Waste
-                    Management</a></li>
-
-
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link  dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Hardware
-              </a>
-              <ul class="dropdown-menu">
-
-                <li><a class="dropdown-item" href="gps.html"><i class="uil uil-circuit"
-                      style="color: rgb(221, 96, 24);"></i>GPS</a></li>
-                <li><a class="dropdown-item" href="iot.html"><i class="uil uil-object-ungroup"
-                      style="color: rgb(20, 223, 162);"></i>IoT</a></li>
-
-
-
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link  dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Company
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#"><i class="uil uil-info-circle" style="color: green;"></i>About
-                    Us</a></li>
-
-                <li><a class="dropdown-item" href="#"><i class="uil uil-headphones-alt"
-                      style="color: rgb(20, 223, 162);"></i>Tech Support</a></li>
-
-                <li><a class="dropdown-item" href="#"><i class="uil uil-phone-volume"
-                      style="color: rgb(13, 13, 235);"></i>Contact Us</a></li>
-              </ul>
-            </li>
-          </ul>
-          <button class="btn  mx-4" type="submit">Free Demo</button>
+    <nav
+    class="navbar navbar-expand-lg fixed-top"
+    onscroll="changeNavbarColor()"
+    >
+    <div class="container-fluid my-0 py-0 mx-2">
+      <a class="navbar-brand" href="index.html">
+        <div class="logo d-flex align-items-center mx-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            id="map-marker-shield"
+          >
+            <path
+              fill="#e9b913"
+              d="M14.41,6.53a2.24,2.24,0,0,1-1.82-.39,1,1,0,0,0-1.18,0,2.24,2.24,0,0,1-1.82.39,1,1,0,0,0-.84.2,1,1,0,0,0-.37.78v2.9A4.14,4.14,0,0,0,10,13.74l1.37,1a1,1,0,0,0,1.18,0l1.37-1a4.14,4.14,0,0,0,1.66-3.33V7.51a1,1,0,0,0-.37-.78A1,1,0,0,0,14.41,6.53Zm-.79,3.88a2.15,2.15,0,0,1-.85,1.73l-.77.57-.77-.57a2.15,2.15,0,0,1-.85-1.73V8.57A4.22,4.22,0,0,0,12,8.12a4.22,4.22,0,0,0,1.62.45Zm6.84-.78A8.5,8.5,0,0,0,7.3,3.36,8.56,8.56,0,0,0,3.54,9.63,8.46,8.46,0,0,0,6,16.46l5.3,5.31a1,1,0,0,0,1.42,0L18,16.46A8.46,8.46,0,0,0,20.46,9.63ZM16.6,15.05,12,19.65l-4.6-4.6A6.49,6.49,0,0,1,5.53,9.83,6.57,6.57,0,0,1,8.42,5a6.47,6.47,0,0,1,7.16,0,6.57,6.57,0,0,1,2.89,4.81A6.49,6.49,0,0,1,16.6,15.05Z"
+            ></path>
+          </svg>
+          <div class="logo-name ms-2">RoadWays</div>
         </div>
+      </a>
+      <button
+        class="navbar-toggler mx-3"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse py-3" id="navbarScroll">
+        <ul
+          class="navbar-nav ms-auto me-0 my-2 mx-2 my-lg-0 navbar-nav-scroll"
+          style="--bs-scroll-height: 700px"
+        >
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link"
+              href="index.html"
+              role="button"
+              aria-expanded="false"
+            >
+              Home
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Product
+            </a>
+
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="fleet.html"
+                  ><i class="uil uil-pump" style="color: green"></i> Fleet
+                  Management Software</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="telematic.html"
+                  ><i
+                    class="uil uil-webcam"
+                    style="color: palevioletred"
+                  ></i>
+                  Video Telematics Software</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="driver.html"
+                  ><i
+                    class="uil uil-streering"
+                    style="color: rgb(13, 13, 235)"
+                  ></i>
+                  Driver Behaviour Monitoring
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="route.html"
+                  ><i class="uil uil-sign-alt" style="color: yellow"></i
+                  >Route Planning</a
+                >
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="electric.html"
+                  ><i
+                    class="uil uil-bus-school"
+                    style="color: rgb(140, 18, 189)"
+                  ></i>
+                  Electric Vehicle</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Industries
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="logistic.html"
+                  ><i
+                    class="uil uil-truck"
+                    style="color: rgb(20, 223, 162)"
+                  ></i
+                  >Logistics and Transport</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="public.html"
+                  ><i
+                    class="uil uil-bus"
+                    style="color: rgb(13, 13, 235)"
+                  ></i
+                  >Public Transport</a
+                >
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="medical.html"
+                  ><i
+                    class="uil uil-ambulance"
+                    style="color: palevioletred"
+                  ></i
+                  >Medical and Healthcare</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="rental.html"
+                  ><i class="uil uil-car-wash" style="color: purple"></i
+                  >Rental Vehicles</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Hardware
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="gps.html"
+                  ><i
+                    class="uil uil-circuit"
+                    style="color: rgb(221, 96, 24)"
+                  ></i
+                  >GPS</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="iot.html"
+                  ><i
+                    class="uil uil-object-ungroup"
+                    style="color: rgb(20, 223, 162)"
+                  ></i
+                  >IoT</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Company
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="about.html"
+                  ><i class="uil uil-info-circle" style="color: green"></i
+                  >About Us</a
+                >
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="contact.html"
+                  ><i
+                    class="uil uil-phone-volume"
+                    style="color: rgb(13, 13, 235)"
+                  ></i
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <button class="btn mx-4" type="submit"><a href="contact.html">Free Demo</a></button>
       </div>
-    </nav>
+    </div>
+  </nav>
 
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
@@ -148,7 +243,7 @@
           <div class="carousel-caption d-md-block ">
             <h3>GPS Tracker We Offer</h3>
             <p>The global positioning system (GPS) is a network of satellites and receiving devices used to determine the location of something on Earth</p>
-            <button class="btn " type="submit">Schedule Free Demo</button>
+            <button class="btn" type="submit"><a href="contact.html">Schedule Free Demo</a></button>
           </div>
         </div>
        
@@ -159,63 +254,96 @@
 
 
 
-
-
-<section class="info my-5 mx-4 py-3">
-  <div class="heading mx-5 ">
-    <h2 class="text-center">The Intersection of GPS Tracking Devices</h2>
-    <p class="text-center para">We have liberated our users from the dilemma of what combination of devices and sensors to pick.
-      Our unrivalled GPS tracking software epitomises flexibility, adaptability and ease of integration
-      with any given hardware device in the market.</p>
+  <section class="info my-5 mx-4 py-3">
+    <div class="heading mx-5 ">
+      <h2 class="text-center">The Intersection of GPS Tracking Devices</h2>
+      <p class="text-center para">We have liberated our users from the dilemma of what combination of devices and sensors to pick.
+        Our unrivalled GPS tracking software epitomises flexibility, adaptability and ease of integration
+        with any given hardware device in the market.</p>
+      </div>
+    <div class="card-container">
+      
+      <div class="card">
+          <i class="uil uil-box"></i>
+        <h3>Asset Trackers</h3>
+        <p>Employed across container tracking, construction, oil, and gas industries, among others, these portable GPS
+          trackers safeguard assets, ensuring their safety and effective management across various sectors.</p>
+      </p>
+      </div>
+      <div class="card">
+          <i class="uil uil-truck"></i>
+        <h3>AVL Device</h3>
+        <p>Automatic Vehicle Locator devices equipped with GPS tracking system act as the perfect vehicle GPS trackers.
+          Keep tabs on real-time location, speed and other essential metrics with AVL location devices.</p>
+      </div>
+      <div class="card">
+          <i class="uil uil-padlock"></i>
+          <h3>eLocks</h3>
+          <p>Ensure consignment safety and customer satisfaction with our automated vehicle locking system. Remotely control locks via our GPS tracker app, compatible with all eLock brands and types.</p>
+        </div>
+        <div class="card">
+          <i class="uil uil-pump"></i>
+          <h3>Fuel Sensor</h3>
+          <p>Seamlessly integrate with all fuel sensors, ensuring universal compatibility. Enjoy easy calibration and precise fuel tracking metrics on our GPS tracker app</p>
+        </div>
+        <div class="card">
+          <i class="uil uil-circuit"></i>
+          <h3>OBD GPS Tracker</h3>
+          <p>OBD, a sophisticated wireless GPS tracker, offers plug-and-play functionality. With self-diagnostics and reporting capabilities, it seamlessly detects vehicular anomalies and provides extensive monitoring features.</p>
+        </div>
+        <div class="card">
+          <i class="uil uil-user"></i>
+          <h3>Personal GPS Tracker</h3>
+          <p>Effortlessly monitor family members, employees, or field workers with integrated personal GPS trackers. Enjoy real-time location tracking, precise movement detection, SOS button, and more for high-end tracking.</p>
+        </div>
+        <div class="card">
+          <i class="material-symbols-outlined">
+              pets
+          </i>
+          <h3>Pet GPS Tracker</h3>
+          <p>Never lose sight of your pet. Our system works with GPS trackers for pets, monitoring your cattle in fields or your cat and dog at home seamlessly.</p>
+        </div><div class="card">
+          <i class="uil uil-video"></i>
+          <h3>Video Monitoring Devices</h3>
+          <p>Enable live streaming, ADAS, and DMS with dashcams. These video monitoring devices, combined with location trackers, create an effective and powerful tracking solution.  </p>
+        </div>
+      <!-- Add more cards here -->
     </div>
-  <div class="card-container">
     
-    <div class="card">
-        <i class="uil uil-box"></i>
-      <h3>Asset Trackers</h3>
-      <p>Employed across container tracking, construction, oil, and gas industries, among others, these portable GPS trackers safeguard assets, ensuring their safety and effective management across various sectors.</p>
-    </div>
-    <div class="card">
-        <i class="uil uil-truck"></i>
-      <h3>AVL Device</h3>
-      <p>Automatic Vehicle Locator devices equipped with GPS tracking system act as the perfect vehicle GPS trackers. Keep tabs on real-time location, speed and other essential metrics with AVL location devices.</p>
-    </div>
-    <div class="card">
-        <i class="uil uil-padlock"></i>
-        <h3>eLocks</h3>
-        <p>Ensure the safety of consignments and enhanced customer satisfaction with a fool-proof automated vehicle locking system. Control the locking system remotely via our GPS tracker app easily integrated with eLocks from all brands and of all types.</p>
-      </div>
-      <div class="card">
-        <i class="uil uil-pump"></i>
-        <h3>Fuel Sensor</h3>
-        <p>Seamless integration with fuel sensors of all types, ensuring compatibility across the board. Experience easy calibration and impeccable accuracy of the fuel tracking metrics on our GPS tracker app.</p>
-      </div>
-      <div class="card">
-        <i class="uil uil-circuit"></i>
-        <h3>OBD GPS Tracker</h3>
-        <p>One of the most sophisticated kinds of wireless GPS trackers, OBD enables a plug-and-play GPS tracking system. Equipped with self-diagnostics and reporting capabilities allow seamless detection of vehicular anomalies and so much more.</p>
-      </div>
-      <div class="card">
-        <i class="uil uil-user"></i>
-        <h3>Personal GPS Tracker</h3>
-        <p>Effortlessly monitor family members, employees, field workers or anyone important with seamlessly integrated personal GPS trackers. With real-time location tracking, precise movement detection, SOS button and more, ensure high-end tracking.</p>
-      </div>
-      <div class="card">
-        <i class="material-symbols-outlined">
-            pets
-        </i>
-        <h3>Pet GPS Tracker</h3>
-        <p>Never lose sight of your pet, even from afar. Our system is compatible with the GPS tracker for pets. Tracks the whereabouts of your cattle in the fields or your beloved cat or dog at home. GPS pet trackers coupled with software capabilities work wonders.</p>
-      </div><div class="card">
-        <i class="uil uil-video"></i>
-        <h3>Video Monitoring Devices</h3>
-        <p>Enabling live streaming, ADAS, and DMS functionalities with the help of different dashcams. These video monitoring devices along with location tracker devices make a win-win tracking combination. </p>
-      </div>
-    <!-- Add more cards here -->
-  </div>
-  
-</section>
+  </section>
 
+  <section class="get-in-touch ">
+    <div class="container my-5">
+      <div class="p-2 text-center touch bg-body-tertiary rounded-3 my-3">
+        <div class="row col-md-12 main">
+          <div class="col-md-6 image-area">
+            <img src="image/cont.gif" width="500" alt="contact image">
+          </div>
+          <div class="col-md-6  form-area">
+            <div class="form-header mb-4">
+              <h1>Get in Touch with Us!</h1>
+            </div>
+            <form action="" class="form">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatInput" placeholder="Name" />
+                <label for="floatInput"><i class="bi bi-person-fill"></i>Name</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatInput" placeholder="Email Address" />
+                <label for="floatInput"><i class="bi bi-envelope-fill"></i>Email</label>
+              </div>
+              <div class="form-floating mb-3">
+                <textarea type="text" class="form-control" id="floatInput" placeholder="Message"></textarea>
+                <label for="floatInput"><i class="bi bi-chat-left-dots-fill"></i>Message</label>
+              </div>
+              <button type="submit" class="btn btn-custom">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
 
   <footer class="bg-dark text-white pt-5 pb-4">
     <div class="container  text-md-left">
