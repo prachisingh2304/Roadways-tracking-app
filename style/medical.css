@@ -17,6 +17,11 @@ a {
   color: #fff;
 
 }
+.get-in-touch h1{
+  color: #e9b913;
+  font-weight: 600;
+  
+}
 
 i {
 
@@ -200,8 +205,8 @@ i {
 }
 
 .faqs{
-  background-color: #1c1c1c;
-  color: #fff;
+  background-color: #fff;
+  color: #333;
   min-height: 80vh;
   margin: 10px auto;
   display: flex;
@@ -210,7 +215,9 @@ i {
 }
 
 .title{
-  font-size: 2.5rem;
+  font-size: 28px;
+  font-weight: 600;
+  color: #e9b913;
   margin: 2rem 0rem;
 
 }
@@ -218,7 +225,7 @@ i {
   max-width: 700px;
   margin-top: 2rem;
   padding-bottom: 1rem;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #333;
   cursor: pointer;
 
 }
@@ -350,9 +357,11 @@ i{
  
 }
 .about1-content h2{
-  font-size: 38px;
+  font-size:28px;
   margin-bottom: 5px;
-  color: #c97440;
+  color: #e9b913;
+  font-weight:600 ;
+
   white-space: nowrap;
 }
 .about1-content p{
@@ -373,27 +382,44 @@ img{
   border-radius: 10px;
 }
 .a{
-  color: #c97440;
+  color: #e9b913;
+ 
 }
 
 .containerbox{
-  background-color: #1c1c1c;
-  color: #fff;
+  background-color: #fff;
+  color: #333;
 }
 .containerbox img{
   height: 60px;
   width: 60px;
   background-color: transparent;
 }
-.containerbox h2,h5{
+.containerbox h2{
   color: #e9b913;
+  font-weight: 600;
+}
+.containerbox h6{
+  white-space: wrap;
+ 
+
 }
 
+.containerbox h3{
+  color: #e9b913;
+  font-size: 23px;
+  
+}
+
+
+.containerbox p{
+  font-size: 14px;
+}
 .about{
-  background-color: #222;
+  background-color: #fff;
   /* overflow: hidden; */
  padding: auto;
- color: #fff;
+ color: #333;
 }
 .about-container{
   display: flex;
@@ -409,9 +435,10 @@ img{
 }
 .about h2{
   padding-top: 10px;
-   font-size: 28px;
+   font-size: 23px;
    color: #e9b913;
-   white-space: nowrap;
+  font-weight: 600;
+
  }
 .about h3{
  padding-top: 10px;
@@ -423,7 +450,7 @@ img{
   font-size: 20px;
   line-height: 1.2;
   margin-bottom: 40px;
-  color: #fff;
+  color: #333;
 }
 .about-img{
   flex: 1;
@@ -479,7 +506,7 @@ img{
 .card1 h3 {
   font-size: 18px;
   margin-bottom: 0;
-  color: #c97440;
+  color: #333;
 }
  /* Paragraph styles */
 .card1 p {
@@ -534,17 +561,17 @@ img{
     background-color: #f3f3f5;
     margin-bottom: 45px;
   }
-  .section-header p {
+  .section-header h6 {
     margin-bottom: 45px;
     color: #666;
   }
   .section-header h2 {
     white-space: nowrap;
-    color: #c97440;
+    color: #e9b913;
     font-weight: 600;
   }
   .single-services {
-    height: 300px;
+    height: auto;
     margin-bottom: 20px;
     padding: 30px 15px;
     background-color: #fff;
@@ -690,7 +717,7 @@ img{
     font-size: 30px;
   }
   .about1-content p {
-    font-size: 18px;
+    font-size: 14px;
     margin-bottom: 20px;
   }
   .about1-content button {
@@ -731,7 +758,7 @@ img{
     font-size: 30px;
   }
   .about-content p{
-    font-size: 18px;
+    font-size: 14px;
     margin-bottom: 20px;
   }
   .about-content button{
@@ -763,6 +790,9 @@ img{
     overflow: hidden;
     transition:  max-height 1.4s ease;
   }
+  .about h2{
+  margin-bottom: -40px;
+   }
 
   .answer p {
     padding-top: 1rem;
@@ -871,10 +901,12 @@ img{
     height: auto;
   }
 
+ 
+  .containerbox p{
+    font-size: 14px;
+  }
   .containerbox img{
-    height: 50px;
-    width: 50px;
-    background-color: transparent;
+display: none;
   }
   .title{
     font-size: 1.6rem;
@@ -907,7 +939,9 @@ img{
   .faq.active .answer{
     max-height: 300px;
   }
-
+  .containerbox h3 {
+    font-size: 14px;
+}
 
   .logos-slide img{
     height: 100px;
@@ -923,10 +957,9 @@ img{
    }
 
    .about{
-    background-color: #1c1c1c;
+    background-color: #fff;
     /* overflow: hidden; */
    padding: auto;
-   color: #fff;
   }
   .about-container{
     display: flex;
@@ -939,15 +972,15 @@ img{
 
   .about h2{
     padding-top: 10px;
-     font-size: 18px;
+     font-size: 23px;
      color: #e9b913;
-     white-space: nowrap;
+    margin-bottom: -20px;
    }
    .about-content p{
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.2;
     margin-bottom: 10px;
-    color: #fff;
+    color: #333;
   }
   .about h3{
      font-size: 18px;
@@ -957,5 +990,7 @@ img{
    .section-header h2 {
     font-size: 24px;
   }
-  
+  .containerbox .row{
+    padding: 0!important;
+   }
 }

@@ -17,7 +17,11 @@ a {
   color: #fff;
 
 }
-
+.get-in-touch h1{
+  color: #e9b913;
+  font-weight: 600;
+  
+}
 i {
 
   font-size: 1.4rem;
@@ -200,8 +204,8 @@ i {
 }
 
 .faqs{
-  background-color: #1c1c1c;
-  color: #fff;
+  background-color: #fff;
+  color: #333;
   min-height: 80vh;
   margin: 10px auto;
   display: flex;
@@ -212,13 +216,14 @@ i {
 .title{
   font-size: 2.5rem;
   margin: 2rem 0rem;
+  color: #e9b913;
 
 }
 .faq{
   max-width: 700px;
   margin-top: 2rem;
   padding-bottom: 1rem;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #333;
   cursor: pointer;
 
 }
@@ -242,6 +247,7 @@ i {
   padding-top: 1rem;
   line-height: 1.6;
   font-size: 1rem;
+  color: #666;
 }
 
 .faq.active .answer{
@@ -350,10 +356,14 @@ i{
  
 }
 .about1-content h2{
-  font-size: 38px;
+  font-size: 28px;
   margin-bottom: 5px;
-  color: #c97440;
-  white-space: nowrap;
+  color: #e9b913;
+  white-space: wrap;
+  font-weight: 600;
+}
+.about1-content h4{
+  color: #e9b913;
 }
 .about1-content p{
   font-size: 15px;
@@ -377,23 +387,27 @@ img{
 }
 
 .containerbox{
-  background-color: #1c1c1c;
-  color: #fff;
+  background-color: #fff;
+  color: #666;
 }
 .containerbox img{
   height: 60px;
   width: 60px;
   background-color: transparent;
 }
-.containerbox h2,h5{
+.containerbox h2{
+  color: #e9b913;
+  font-weight: 600;
+}
+.containerbox h3{
   color: #e9b913;
 }
 
 .about{
-  background-color: #222;
+  background-color: #fff;
   /* overflow: hidden; */
  padding: auto;
- color: #fff;
+ color: #333;
 }
 .about-container{
   display: flex;
@@ -411,6 +425,7 @@ img{
   padding-top: 10px;
    font-size: 28px;
    color: #e9b913;
+   font-weight: 600;
    white-space: nowrap;
  }
 .about h3{
@@ -423,7 +438,7 @@ img{
   font-size: 20px;
   line-height: 1.2;
   margin-bottom: 40px;
-  color: #fff;
+  color: #666;
 }
 .about-img{
   flex: 1;
@@ -477,8 +492,9 @@ img{
   /* Heading styles */
 .card1 h3 {
   font-size: 18px;
-  margin-bottom: 0;
-  color: #c97440;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #333;
 }
  /* Paragraph styles */
 .card1 p {
@@ -539,7 +555,8 @@ img{
   }
   .section-header h2 {
     white-space: nowrap;
-    color: #c97440;
+    font-size: 28px;
+    color: #e9b913;
     font-weight: 600;
   }
   .single-services {
@@ -686,10 +703,10 @@ img{
     margin: 35px 0px;
   }
   .about1-content h2 {
-    font-size: 30px;
+    font-size: 23px;
   }
   .about1-content p {
-    font-size: 18px;
+    font-size: 14px;
     margin-bottom: 20px;
   }
   .about1-content button {
@@ -871,9 +888,8 @@ img{
   }
 
   .containerbox img{
-    height: 50px;
-    width: 50px;
-    background-color: transparent;
+    display: none;
+    
   }
   .title{
     font-size: 1.6rem;
@@ -921,32 +937,27 @@ img{
     width: 130px;
    }
 
-   .about{
-    background-color: #1c1c1c;
-    /* overflow: hidden; */
-   padding: auto;
-   color: #fff;
-  }
+   
   .about-container{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 10px auto;
+    margin: -15px auto;
     padding-top: 0!important;
   }
 
   .about h2{
     padding-top: 10px;
-     font-size: 18px;
-     color: #e9b913;
-     white-space: nowrap;
+     font-size: 23px;
+    
+     white-space: wrap;
    }
    .about-content p{
     font-size: 12px;
     line-height: 1.2;
     margin-bottom: 10px;
-    color: #fff;
+    
   }
   .about h3{
      font-size: 18px;
@@ -956,5 +967,21 @@ img{
    .section-header h2 {
     font-size: 24px;
   }
-  
+  .containerbox .row{
+    padding: 0!important;
+   }
+   .containerbox h3 {
+    font-size: 14px;
+    padding: 13px;
+    white-space: wrap;
+
+   }
+    .containerbox h5{
+      font-size: 20px;
+    
+}
+.containerbox p{
+  font-size: 14px;
+  margin-bottom: 10px;
+}
 }

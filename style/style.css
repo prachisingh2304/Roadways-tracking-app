@@ -74,19 +74,34 @@ i {
   align-items: center;
 }
 
-.logo svg {
+.logo img {
   width: 40px;
   height: 40px;
 }
 
 .logo-name {
+  display: flex;
+  flex-direction: column;
   margin-left: 10px;
 
-  font-size: 1.8rem;
-  color: #fff;
-  font-weight: 500;
+ 
 }
+.log1{
+  
+  font-size: 1.4rem;
+  color: #fff;
 
+  
+  font-weight: 500;
+ 
+}
+.log{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: -10px;
+color: #e9b913;
+  font-size: 13px;
+
+}
 @keyframes bounce {
   0% {
     transform: translateY(0);
@@ -159,7 +174,7 @@ i {
 }
 
 
-.scrolled .navbar-brand .logo-name {
+.scrolled .navbar-brand .logo-name .log1{
   color: black;
 }
 
@@ -207,8 +222,8 @@ i {
 }
 
 .faqs{
-  background-color: #1c1c1c;
-  color: #fff;
+  background-color: #fff;
+  color: #333;
   min-height: 80vh;
   margin: 10px auto;
   display: flex;
@@ -219,13 +234,14 @@ i {
 .title{
   font-size: 2.5rem;
   margin: 2rem 0rem;
-
+  font-weight: 600;
+  color: #e9b913;
 }
 .faq{
   max-width: 700px;
   margin-top: 2rem;
   padding-bottom: 1rem;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #666;
   cursor: pointer;
 
 }
@@ -328,8 +344,9 @@ input:focus, textarea:focus{
 }
 .about-content h2{
   font-size: 38px;
+  font-weight: 600;
   margin-bottom: 20px;
-  color: #333;
+  color: #e9b913;
   white-space: nowrap;
 }
 .about-content p{
@@ -347,17 +364,26 @@ input:focus, textarea:focus{
 img{
   width: 100%;
   height: auto;
-  border-radius: 10px;
+ 
 }
 
 
 .platform {
-    background-color: #1c1c1c;
-    color: white;
+    background-color: white;
     padding: 50px 0;
+  }
+  .platform h2{
+    color: #e9b913;
+    font-weight: 600;
     
   }
  
+  .platform p{
+    margin: 10px 8px;
+    font-size: 20px;
+    padding: 5px;
+    color: #666;
+  }
   .card-container{
     display: flex;
     justify-content: center;
@@ -367,13 +393,17 @@ img{
     margin-left:30px ;
     margin-right: 30px;
   }
+
+  .get-in-touch h1{
+    color: #e9b913;
+    font-weight: 600;
+    
+  }
  .card{
   width: 325px;
-  background-color: #333;
-  color: white;
-  border-radius: 10px ;
- 
-  box-shadow: 0px 2px 10px rgba(227, 230, 50, 0.596);
+  background-color:white ;
+  color: #333;  
+  box-shadow: 0px 2px 10px rgba(55, 4, 68, 0.596);
   overflow: hidden;
   transition: transform 0.6s ease;
  }
@@ -391,11 +421,13 @@ img{
  }
  .card-content h1{
   font-size: 24px;
+  color:#333;
   margin-bottom: 10px;
  }
  .card-content p{
   font-size: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 10px 20px;
+  color: #666;
  }
 .products{
     background-color: #f3f3f5;
@@ -588,14 +620,10 @@ img{
   }
   .faq{
     max-width: 500px;
-   
     margin: 2rem 3rem 0 3rem;
     padding-bottom: 1rem;
-    
-  
   }
-  
-  
+
   
   .question h3{
     font-size: 1.2rem;
@@ -693,7 +721,10 @@ img{
     height: 40vh;
 
   }
-
+  .card-content h1{
+    font-size: 22px;
+    margin-bottom: 2px;
+  }
   .carousel-caption {
     width: 100%;
     padding: 13px;
@@ -720,6 +751,16 @@ img{
 
   }
 
+  .work h6{
+    font-size: 23px;
+    font-weight: 600;
+    color:#e9b913;
+    margin-top: -24px;
+  }
+  .work p{
+    color: #666;
+    font-size: 14px;
+  }
 
   .title{
     font-size: 1.6rem;
@@ -755,11 +796,29 @@ img{
     max-height: 300px;
    
   }
+  .faqs{
+    min-height: 50vh;
+  }
+  .platform h2{
+    color: #e9b913;
+    font-weight: 600;
+    margin: 10px 8px;
+    font-size: 22px;
+  }
+  .platform p{
+    margin: 10px 8px;
+    font-size: 14px;
+    padding: 0;
+    color: #666;
+    line-height: 1.3;
+  }
+
   .card{
-    width: 90%;
+    width: 80%;
   }
   .card-container{
     flex-wrap: wrap;
+    margin: 10px;
   }
   .about-content h2{
     font-size: 23px;

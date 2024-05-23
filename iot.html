@@ -138,7 +138,7 @@
               </ul>
             </li>
           </ul>
-          <button class="btn mx-4" type="submit"><a href="contact.html">Free Demo</a></button>
+          <button class="btn" type="submit"><a href="contact.html"> Free Demo</a></button>
         </div>
       </div>
     </nav>
@@ -152,7 +152,7 @@
             <h3>IOT Devices</h3>
             <p>The Internet of Things (IoT) refers to physical objects embedded with sensors, software, and technology
               to exchange data with other devices and systems via the internet.</p>
-            <button class="btn" type="submit"><a href="contact.html">Schedule Free Demo</a></button>
+              <button class="btn" type="submit"><a href="contact.html">Schedule Free Demo</a></button>
           </div>
         </div>
 
@@ -225,12 +225,12 @@
 
   </section>
 
-  <section class="get-in-touch ">
-    <div class="container my-5">
+  <section class="get-in-touch my-5 py-3">
+    <div class="container my-2">
       <div class="p-2 text-center touch bg-body-tertiary rounded-3 my-3">
         <div class="row col-md-12 main">
           <div class="col-md-6 image-area">
-            <img src="image/cont.gif" width="500" alt="contact image">
+          <img src="image/cont.gif" alt="">
           </div>
           <div class="col-md-6  form-area">
             <div class="form-header mb-4">
@@ -238,19 +238,23 @@
             </div>
             <form action="" class="form">
               <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatInput" placeholder="Name" />
-                <label for="floatInput"><i class="bi bi-person-fill"></i>Name</label>
+                  <input type="text" class="form-control" id="nameInput" placeholder="Name" />
+                  <label for="nameInput"><i class="bi bi-person-fill"></i>Name</label>
               </div>
               <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="floatInput" placeholder="Email Address" />
-                <label for="floatInput"><i class="bi bi-envelope-fill"></i>Email</label>
+                  <input type="tel" class="form-control" id="mobileInput" placeholder="Mobile number" pattern="[0-9]{10}" required/>
+                  <label for="mobileInput"><i class="bi bi-phone-fill"></i>Mobile Number</label>
               </div>
               <div class="form-floating mb-3">
-                <textarea type="text" class="form-control" id="floatInput" placeholder="Message"></textarea>
-                <label for="floatInput"><i class="bi bi-chat-left-dots-fill"></i>Message</label>
+                  <input type="email" class="form-control" id="emailInput" placeholder="Email Address" required/>
+                  <label for="emailInput"><i class="bi bi-envelope-fill"></i>Email</label>
+              </div>
+              <div class="form-floating mb-3">
+                  <textarea class="form-control" id="messageInput" placeholder="Message"></textarea>
+                  <label for="messageInput"><i class="bi bi-chat-left-dots-fill"></i>Message</label>
               </div>
               <button type="submit" class="btn btn-custom">Submit</button>
-            </form>
+          </form>
           </div>
         </div>
       </div>
@@ -258,7 +262,7 @@
     </div>
   </section>
 
-  <footer class="bg-dark text-white pt-5 pb-4">
+  <footer class=" text-white pt-5 pb-4" style="background-color: #333;">
     <div class="container  text-md-left">
 
       <div class="row  text-md-left">
@@ -290,17 +294,18 @@
         <div class="col-md-3 col-lg-2 col-xl-2 mt-3">
           <h5 class="mb-4 font-weight-bold text-warning">Quick Links</h5>
           <p>
-            <a href="#" class="text-white" style="text-decoration: none;">Route Tracker</a>
+            <a href="#" class="text-white" style="text-decoration: none;">Home</a>
           </p>
           <p>
-            <a href="#" class="text-white" style="text-decoration: none;">Vehical Tracker</a>
+            <a href="#" class="text-white" style="text-decoration: none;">About Us</a>
           </p>
           <p>
-            <a href="#" class="text-white" style="text-decoration: none;">Fleet Management</a>
+            <a href="#" class="text-white" style="text-decoration: none;">Contact Us</a>
           </p>
           <p>
-            <a href="#" class="text-white" style="text-decoration: none;">Video Telematics </a>
+            <a href="#" class="text-white" style="text-decoration: none;">Tech Support</a>
           </p>
+          
         </div>
 
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
@@ -309,11 +314,9 @@
             <i class="bi bi-house-door-fill " style="font-size: 20px;"></i>Lucknow, UP 226010
           </p>
           <p>
-            <i class="bi bi-envelope-at-fill " style="font-size: 20px;"></i>roadways123@gmail.com
+            <i class="bi bi-envelope-at-fill " style="font-size: 20px;"></i>asktoroadways@outlook.com
           </p>
-          <p>
-            <i class="bi bi-telephone-fill" style="font-size: 20px;"></i>+91 1234567891
-          </p>
+          
 
         </div>
       </div>

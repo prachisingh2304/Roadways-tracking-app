@@ -17,6 +17,10 @@ a {
   color: #fff;
 
 }
+.get-in-touch h1{
+  color: #e9b913;
+  font-weight: 600;
+}
 
 i {
 
@@ -218,13 +222,14 @@ i {
  
 }
 .about-content h2{
-  font-size: 38px;
+  font-size: 28px;
   margin-bottom: 5px;
-  color: #c97440;
+  color: #e9b913;
   white-space: nowrap;
+  font-weight: 600;
 }
 .about-content p{
-  font-size: 15px;
+  font-size: 20px;
   line-height: 1.2;
   margin-bottom: 40px;
   color: #666;
@@ -241,15 +246,25 @@ img{
   border-radius: 10px;
 }
 .a{
-  color: #c97440;
+  color: #333;
 }
 
 
 .platform {
-  background-color: #1c1c1c;
-  color: white;
+  background-color: #fff;
+  color: #333;
   padding: 50px 0;
   
+}
+.platform p{
+  font-size: 23px;
+
+}
+.platform h2{
+  font-size: 23px;
+  font-weight: 600;
+  color: #e9b913;
+
 }
 
 .card-container{
@@ -263,8 +278,8 @@ img{
 }
 .card{
 width: 325px;
-background-color: #333;
-color: white;
+background-color: #fff;
+color: #666;
 border-radius: 10px ;
 box-shadow: 0px 2px 10px rgba(227, 230, 50, 0.596);
 overflow: hidden;
@@ -285,6 +300,7 @@ padding: 20px;
 .card-content h1{
 font-size: 22px;
 margin-bottom: 10px;
+color: #333;
 
 }
 .card-content p{
@@ -304,16 +320,17 @@ ul {
 
 
 .categories{
-  background-color: #fff;
+  background-color: #f3f3f5;
   padding:3rem 2rem;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
   transition:all 400ms ease;
 }
 .categories h1{
-  color:#c97440;
+  color:#e9b913;
   margin-top: 4rem;
-  font-size: 30px;
+  font-size:23px;
   margin-right: 4rem;
+  font-weight: 600;
  
 }
 .categories h3{
@@ -331,6 +348,7 @@ ul {
   color: #777;
   margin:  2rem 4rem 0 0;
   padding-right: 30px;
+  text-align: start;
 
 }
 
@@ -401,78 +419,8 @@ ul {
 
 
 
-.faqs{
-  background-color: #1c1c1c;
-  color: #fff;
-  min-height: 80vh;
-  margin: 2px auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
-.title{
-  font-size: 2.5rem;
-  margin: 2rem 0rem;
 
-}
-.faq{
-  max-width: 700px;
-  margin-top: 2rem;
-  padding-bottom: 1rem;
-  border-bottom: 2px solid #fff;
-  cursor: pointer;
-
-}
-
-.question{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.question h3{
-  font-size: 1.2rem;
-
-}
-.answer {
-  max-height: 0;
-  overflow: hidden;
-  transition:  max-height 1.4s ease;
-}
-.answer p {
-  padding-top: 1rem;
-  line-height: 1.6;
-  font-size: 1rem;
-}
-
-.faq.active .answer{
-  max-height: 300px;
-  animation: fade 1s ease-in-out;
-}
-
-.faq.active i{
-  transform: rotate(180deg);
-}
-
-i{
-  transition: transform 0.5s ease-in;
-}
-
-@keyframes fade{
-  from {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  to{
-    opacity: 1;
-    transform: translateY(0px);
-  }
-}
-
-.touch{
-  box-shadow:0 2px 4px rgba(0,0,0,0.5);
-}
 
 
 .image-area{
@@ -505,8 +453,8 @@ input:focus, textarea:focus{
 }
 
 .faqs{
-  background-color: #1c1c1c;
-  color: #fff;
+  background-color: #fff;
+  color: #333;
   min-height: 80vh;
   margin: 2px auto;
   display: flex;
@@ -515,15 +463,17 @@ input:focus, textarea:focus{
 }
 
 .title{
-  font-size: 2.5rem;
+  font-size: 23px;
+  font-weight: 600;
+  color: #e9b913;
   margin: 2rem 0rem;
-
+  
 }
 .faq{
   max-width: 700px;
   margin-top: 2rem;
   padding-bottom: 1rem;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #666;
   cursor: pointer;
 
 }
@@ -673,7 +623,7 @@ i{
       color: #777;
       margin:  2rem 4rem 0 0;
       padding-right: 35px;
-      text-align: center;
+      
     }
   
 }
@@ -785,6 +735,7 @@ i{
     font-size: 20px; /* Adjust font size for smaller screens */
     margin-top: -1rem; /* Adjust margin */
     white-space: nowrap; /* Prevent wrapping */
+    
   }
 
   .categories_left h3 {
@@ -794,8 +745,7 @@ i{
 
   .categories_left p {
     margin: 2rem 0 0 0; /* Adjust margin */
-    color: #777;
-    text-align: center; /* Center text */
+    color: #666;
     margin-bottom: 2rem;
     font-size: 20px;
   }
@@ -811,14 +761,13 @@ i{
     margin-bottom: 1rem; /* Adjust margin */
   }
   .categories_right  h5 {
-   font-size: 21px;
+   font-size: 18px;
   }
 
   .title{
-    font-size: 2.2rem;
-    margin: 2rem 1rem;
+    font-size: 23px;
+    font-weight: 600;
     white-space: nowrap;
-  
   }
   .faq{
     max-width: 500px;
@@ -961,8 +910,9 @@ i{
   }
 
   .categories_left h1 {
-    font-size: 14px; /* Adjust font size for smaller screens */
+    font-size: 17px; /* Adjust font size for smaller screens */
     margin-top: -0.5rem; /* Adjust margin */
+    white-space: normal;
   }
 
   .categories_left h3 {
@@ -972,7 +922,7 @@ i{
 
   .categories_left p {
     margin: 1rem 0 2rem 0; /* Adjust margin */
-    font-size: 12px; /* Adjust font size for smaller screens */
+    font-size: 13px; /* Adjust font size for smaller screens */
   }
 
   .categories_right {
@@ -986,7 +936,7 @@ i{
   }
 
   .categories_right h5 {
-    font-size: 12px; /* Adjust font size for smaller screens */
+    font-size: 16spx; /* Adjust font size for smaller screens */
  
   }
 

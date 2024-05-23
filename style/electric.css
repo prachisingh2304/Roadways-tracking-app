@@ -15,6 +15,11 @@ a {
   text-decoration: none;
   color: #fff;
 }
+.get-in-touch h1{
+  color: #e9b913;
+  font-weight: 600;
+  
+}
 
 i {
   font-size: 1.4rem;
@@ -197,12 +202,13 @@ i {
     box-shadow: 0 10px 20px rgba(114, 58, 187, 0.774);
   }
   .fuelreport h1{
-    font-size: 35px;
-    color: #333;
+    font-size: 23px;
+    
+    color: #e9b913;
   }
   .fuelreport p{
     font-size: 17px;
-    color: #333;  
+    color: #666;  
   }
   .fuelreport img{
   height: 250px;
@@ -216,7 +222,7 @@ i {
   gap: 25px;
   align-items: center;
   justify-content: center;
-  background-color: #1c1c1c;
+  background-color: #fff;
   
 }
 
@@ -235,10 +241,10 @@ i {
 
 
 /* Heading styles */
-.card h3 {
-  font-size: 18px;
+.card h1 {
+  font-size: 23px;
   margin-bottom: 10px;
-  color: #c97440;
+  color: #e9b913;
 }
 
 /* Paragraph styles */
@@ -279,15 +285,18 @@ i {
   width: 90%;
   margin: 10px auto;
 }
-.about h2{
-  font-size: 38px;
-  color: #c97440;
-  white-space: nowrap;
+.about h1{
+  font-size: 23px;
+  color: #e9b913;
   margin-top: 50px;
   margin-bottom:0;
+  font-weight: 600;
 
 }
-.about h5{
+.about h2{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom:10px;
   color: #666;
 }
 .about-img img{
@@ -315,8 +324,8 @@ i {
 
 /* Heading styles */
 .aboutcard h3 {
-  font-size: 18px;
-  color: #c97440;
+  font-size: 23px;
+  color: #e9b913;
 }
 
 /* Paragraph styles */
@@ -326,60 +335,6 @@ i {
   color: #666;
 }
 
-.faqs {
-  background-color: #1c1c1c;
-  color: #fff;
-  min-height: 80vh;
-  margin: 10px auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.title {
-  font-size: 2.5rem;
-  margin: 2rem 0rem;
-}
-.faq {
-  max-width: 700px;
-  margin-top: 2rem;
-  padding-bottom: 1rem;
-  border-bottom: 2px solid #fff;
-  cursor: pointer;
-}
-
-.question {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.question h3 {
-  font-size: 1.2rem;
-}
-.answer {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 1.4s ease;
-}
-.answer p {
-  padding-top: 1rem;
-  line-height: 1.6;
-  font-size: 1rem;
-}
-
-.faq.active .answer {
-  max-height: 300px;
-  animation: fade 1s ease-in-out;
-}
-
-.faq.active i {
-  transform: rotate(180deg);
-}
-
-i {
-  transition: transform 0.5s ease-in;
-}
 
 @keyframes fade {
   from {
@@ -427,8 +382,8 @@ textarea:focus {
 }
 
 .faqs {
-  background-color: #1c1c1c;
-  color: #fff;
+  background-color: #fff;
+  color: #333;
   min-height: 80vh;
   margin: 10px auto;
   display: flex;
@@ -437,14 +392,16 @@ textarea:focus {
 }
 
 .title {
-  font-size: 2.5rem;
+  font-size: 28px;
+  font-weight: 600;
+  color: #e9b913;
   margin: 2rem 0rem;
 }
 .faq {
   max-width: 700px;
   margin-top: 2rem;
   padding-bottom: 1rem;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #333;
   cursor: pointer;
 }
 
@@ -512,6 +469,10 @@ i {
   .about{
     margin:10px 0;
   }
+  .fuelreport p{
+    font-size: 17px;
+    color: #666;  
+  }
   
 }
 
@@ -537,7 +498,7 @@ i {
 
   .fuelreport {
     background-color: #fff;
-    width: 80vw;
+    width: 65vw;
     margin: auto;
     margin-top: 40px;
     box-shadow: 4px 4px 4px 4px rgba(207, 205, 205, 0.8);
@@ -548,12 +509,12 @@ i {
     box-shadow: 0 10px 20px rgba(114, 58, 187, 0.774);
   }
   .fuelreport h1{
-    font-size: 28px;
+    font-size: 23px;
     color: #333;
   }
   .fuelreport p{
-    font-size: 17px;
-    color: #333;  
+    font-size: 14px;
+    color: #666;  
   }
   .fuelreport img{
   height: 250px;
@@ -652,19 +613,11 @@ i {
     padding: 8px 16px;
   }
 
-
-  
-  .about h5{
-    font-size: 17px;
-  
-  }
   .about h2{
-    font-size: 21px;
-    color: #c97440;
-    white-space: nowrap;
-    margin-top: 50px;
+    font-size: 20px;
+    margin-top: 10px;
     margin-bottom:10px;
-  
+    color: #666;
   }
   .about-img {
     width: auto;
@@ -812,11 +765,11 @@ i {
  margin-bottom: 20px;
 }
   .fuelreport h1{
-    font-size: 22px;
+    font-size: 23px;
     color: #333;
   }
   .fuelreport p{
-    font-size: 12px;
+    font-size: 14px;
     color: #333;  
   }
   .fuelreport img{
@@ -842,7 +795,7 @@ i {
     font-size: 12px;
   }
   .aboutcard h3{
-    font-size: 16px;
+    font-size: 17px;
   }
   .about-content h2{
     font-size: 23px;
@@ -861,12 +814,10 @@ i {
   
   }
   .about h2{
-    font-size: 21px;
-    color: #c97440;
-    white-space: nowrap;
-    margin-top: 50px;
+    font-size: 17px;
+    margin-top: 10px;
     margin-bottom:10px;
-  
+    color: #666;
   }
   .about-img {
     width: auto;
