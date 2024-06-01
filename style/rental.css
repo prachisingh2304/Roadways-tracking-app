@@ -77,16 +77,35 @@ i {
 }
 
 .logo svg {
+  
   width: 40px;
   height: 40px;
 }
 
 .logo-name {
+  display: flex;
+  flex-direction: column;
   margin-left: 10px;
 
-  font-size: 1.8rem;
+ 
+}
+.log1{
+  margin-top: 10px;
+  font-size: 1.7rem;
   color: #fff;
+
+  
   font-weight: 500;
+ 
+}
+.log{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: -10px;
+  font-style: oblique;
+  margin-bottom: 0;
+color: #e9b913;
+  font-size: 13px;
+
 }
 
 @keyframes bounce {
@@ -161,7 +180,7 @@ i {
 }
 
 
-.scrolled .navbar-brand .logo-name {
+.scrolled .navbar-brand .logo-name .log1{
   color: black;
 }
 
@@ -216,6 +235,7 @@ i {
 .title{
   font-size: 2.5rem;
   margin: 2rem 0rem;
+  font-weight: 600  ;
   color: #e9b913;
 
 }
@@ -356,7 +376,7 @@ i{
  
 }
 .about1-content h2{
-  font-size: 28px;
+  font-size: 30px;
   margin-bottom: 5px;
   color: #e9b913;
   white-space: wrap;
@@ -364,6 +384,7 @@ i{
 }
 .about1-content h4{
   color: #e9b913;
+  font-size: 20px;
 }
 .about1-content p{
   font-size: 15px;
@@ -385,24 +406,40 @@ img{
 .a{
   color: #c97440;
 }
-
+.containerbox p{
+  font-size:15px;
+}
 .containerbox{
   background-color: #fff;
   color: #666;
 }
+
 .containerbox img{
   height: 60px;
   width: 60px;
   background-color: transparent;
 }
 .containerbox h2{
+  font-size: 30px;
   color: #e9b913;
   font-weight: 600;
 }
+
 .containerbox h3{
   color: #e9b913;
+  font-size: 24px;
 }
-
+.containerbox h6{
+  font-size: 20px;
+  color: #666;
+}
+.cardclass h2{
+  text-align: center;
+  margin-top: 28px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #e9b913;
+}
 .about{
   background-color: #fff;
   /* overflow: hidden; */
@@ -430,12 +467,12 @@ img{
  }
 .about h3{
  padding-top: 10px;
-  font-size: 28px;
+  font-size: 24px;
   color: #e9b913;
   white-space: nowrap;
 }
 .about-content p{
-  font-size: 20px;
+  font-size: 15px;
   line-height: 1.2;
   margin-bottom: 40px;
   color: #666;
@@ -491,14 +528,14 @@ img{
   
   /* Heading styles */
 .card1 h3 {
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 10px;
   margin-bottom: 5px;
   color: #333;
 }
  /* Paragraph styles */
 .card1 p {
-  font-size: 14px;
+  font-size: 15px;
   color: #666;
 }
   /* Individual card background colors */
@@ -761,6 +798,7 @@ img{
   .title{
     font-size: 2.2rem;
     margin: 2rem 1rem;
+    font-weight: 600;
     white-space: nowrap;
   }
 
@@ -824,10 +862,14 @@ img{
     margin-left: 0;
   }
 
-  .logo-name {
-    font-size: 1.5rem;
+  .log1 {
+    font-size: 1.2rem;
   }
-
+  .log {
+    
+    
+    font-size: 9px;
+}
   .navbar-toggler {
 
     padding: 3px 6px;
@@ -981,7 +1023,7 @@ img{
     
 }
 .containerbox p{
-  font-size: 14px;
+  font-size: 15px;
   margin-bottom: 10px;
 }
 }

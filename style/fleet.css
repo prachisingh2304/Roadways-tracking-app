@@ -70,15 +70,35 @@ i {
 }
 
 .logo svg {
+  
   width: 40px;
   height: 40px;
 }
 
 .logo-name {
+  display: flex;
+  flex-direction: column;
   margin-left: 10px;
-  font-size: 1.8rem;
+
+ 
+}
+.log1{
+  margin-top: 10px;
+  font-size: 1.7rem;
   color: #fff;
+
+  
   font-weight: 500;
+ 
+}
+.log{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: -10px;
+  font-style: oblique;
+  margin-bottom: 0;
+color: #e9b913;
+  font-size: 13px;
+
 }
 
 @keyframes bounce {
@@ -145,7 +165,7 @@ i {
   color: black !important;
 }
 
-.scrolled .navbar-brand .logo-name {
+.scrolled .navbar-brand .logo-name .log1{
   color: black;
 }
 
@@ -167,7 +187,11 @@ i {
   color: #fff;
   margin-left: 5px;
 }
-
+.work h6{
+  font-size: 30px;
+  font-weight: 600;
+  color:#e9b913;
+}
 .carousel-caption {
   margin-top: -25px;
 }
@@ -187,6 +211,8 @@ i {
 
 .title {
   font-size: 2.5rem;
+  color: #e9b913;
+  font-weight: 600;
   margin: 2rem 0rem;
 }
 
@@ -284,11 +310,6 @@ textarea:focus {
   align-items: center;
 }
 
-.title {
-  color: #333;
-  font-size: 2.5rem;
-  margin: 2rem 0rem;
-}
 .faq {
   max-width: 700px;
   margin-top: 2rem;
@@ -356,7 +377,7 @@ i {
   white-space: nowrap;
   color: #e9b913;
   font-weight: 600;
-  font-size: 28px;
+  font-size: 30px;
 }
 .single-services {
   height: 300px;
@@ -372,12 +393,12 @@ i {
   transform: translateY(-10px);
 }
 .single-services h2 {
-  font-size: 23px;
+  font-size: 24px;
   color: #333;
 }
 .single-services p {
   color: #666;
-  font-size: 20px;
+  font-size: 15px;
 }
 .single-services span {
   font-size: 65px;
@@ -402,24 +423,29 @@ i {
   width:45%;
 }
 .textblock .title{
-  font-size: 23px;
+  font-size: 30px;
   font-weight: 600;
  text-align: center;
  text-transform: uppercase;
  color: #e9b913;
  margin-bottom: 0.5rem;
- margin-top: -8px;
+ margin-top: 0;
 }
 .textblock .sub-title{
   text-align: center;
- font-size: 1.5rem;
+ font-size: 24px;
   color:#666;
-  margin-bottom: 1.8rem;
+  margin-bottom: 1rem;
  }
  .textblock p{
   margin-bottom: 1.3rem;
-  color: #333;
+  font-size: 15px;
+  color: #666;
 
+ }
+ .parent .work p{
+  color: #666;
+  font-size: 20px;
  }
 .containerbox img{
   height: 300px;
@@ -442,16 +468,16 @@ i {
 }
 .fuelreport h2{
   font-size: 23px;
-  color: #333;
+  color: #e9b913;
 }
 .fuelreport p{
-  font-size: 17px;
-  color: #333;  
+  font-size: 15px;
+  color: #666;  
 }
 .fuelreport img{
 height: 250px;
 width: 300px;
-border:2px solid #e9b913;
+
 }
 
 
@@ -738,9 +764,14 @@ border:2px solid #e9b913;
     margin-left: 0;
   }
 
-  .logo-name {
-    font-size: 1.5rem;
+  .log1 {
+    font-size: 1.2rem;
   }
+  .log {
+    
+    
+    font-size: 9px;
+}
 
   .navbar-toggler {
     padding: 3px 6px;
@@ -808,12 +839,23 @@ border:2px solid #e9b913;
   }
   .textblock .title{
     font-size: 25px;
+    margin-left: -2px;
   }
   .containerbox{
     width: 90%;
   }
   .containerbox .textblock{
     width: 100%;
+  }
+  .work h6{
+    font-size: 23px;
+    font-weight: 600;
+    
+    margin-top: -24px;
+  }
+  .work p{
+    color: #666;
+    font-size: 14px;
   }
   .fuelreport img{
     height: 200px;

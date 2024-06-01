@@ -44,30 +44,7 @@ window.addEventListener('scroll', function() {
     })
   });
 
-//products
-document.addEventListener("DOMContentLoaded", function() {
-    const logosSlide = document.querySelector(".logos-slide");
-    const images = Array.from(logosSlide.querySelectorAll("img"));
-    const totalWidth = images.reduce((acc, img) => acc + img.width, 0);
-    
-    let cloneCount = Math.ceil(window.innerWidth / totalWidth);
-  
-    for (let i = 0; i < cloneCount; i++) {
-      images.forEach(image => {
-        const clone = image.cloneNode(true);
-        logosSlide.appendChild(clone);
-      });
-    }
-    
-    // Restart the animation on window resize
-    window.addEventListener("resize", () => {
-      logosSlide.style.animation = "none";
-      setTimeout(() => {
-        logosSlide.style.animation = "";
-      }, 50);
-    });
-  });
-  
+
   //contact
  
   document.addEventListener('DOMContentLoaded', function() {

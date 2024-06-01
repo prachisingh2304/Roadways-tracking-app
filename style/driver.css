@@ -75,16 +75,35 @@ i {
 }
 
 .logo svg {
+  
   width: 40px;
   height: 40px;
 }
 
 .logo-name {
+  display: flex;
+  flex-direction: column;
   margin-left: 10px;
 
-  font-size: 1.8rem;
+ 
+}
+.log1{
+  margin-top: 10px;
+  font-size: 1.7rem;
   color: #fff;
+
+  
   font-weight: 500;
+ 
+}
+.log{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: -10px;
+  font-style: oblique;
+  margin-bottom: 0;
+color: #e9b913;
+  font-size: 13px;
+
 }
 
 @keyframes bounce {
@@ -151,7 +170,7 @@ i {
   color: black !important;
 }
 
-.scrolled .navbar-brand .logo-name {
+.scrolled .navbar-brand .logo-name .log1 {
   color: black;
 }
 
@@ -210,20 +229,20 @@ i {
  
 }
 .about-content h2{
-  font-size: 28px;
+  font-size: 30px;
   margin-bottom: 20px;
   color: #e9b913;
   white-space: nowrap;
   font-weight: 600;
 }
 .about-content h3{
-  font-size: 23px;
+  font-size: 24px;
   margin-bottom: 5px;
-  color: #333;
+  color: #e9b913;
   white-space: nowrap;
 }
 .about-content p{
-  font-size: 18px;
+  font-size: 15px;
   line-height: 1.2;
   margin-bottom: 20px;
   color: #666;
@@ -279,13 +298,13 @@ img{
   
   /* Heading styles */
 .card h3 {
-  font-size: 18px;
+  font-size: 24px;
   margin-bottom: 0;
   color: #333;
 }
  /* Paragraph styles */
 .card p {
-  font-size: 14px;
+  font-size: 15spx;
   color: #666;
 }
   /* Individual card background colors */
@@ -325,7 +344,7 @@ img{
     background-color: #849cfa; /* Lighter shade of blue */
   }
   
-  
+ 
   
 
 .about-container .a{
@@ -759,14 +778,21 @@ i {
     margin-left: 0;
   }
 
+  
+
   .logo svg {
     height: 2.3rem;
     margin-left: 0;
   }
 
-  .logo-name {
-    font-size: 1.5rem;
+  .log1 {
+    font-size: 1.2rem;
   }
+  .log {
+    
+    
+    font-size: 9px;
+}
 
   .navbar-toggler {
     padding: 3px 6px;

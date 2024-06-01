@@ -74,7 +74,7 @@ i {
   align-items: center;
 }
 
-.logo img {
+.logo svg {
   
   width: 40px;
   height: 40px;
@@ -89,7 +89,7 @@ i {
 }
 .log1{
   margin-top: 10px;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   color: #fff;
 
   
@@ -97,11 +97,12 @@ i {
  
 }
 .log{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-top: -10px;
+  font-style: oblique;
   margin-bottom: 0;
 color: #e9b913;
-  font-size: 12px;
+  font-size: 13px;
 
 }
 @keyframes bounce {
@@ -377,11 +378,11 @@ img{
   .platform h2{
     color: #e9b913;
     font-weight: 600;
-    
+    font-size: 30px;
   }
  
   .platform p{
-    margin: 10px 8px;
+    margin: 5px 8px;
     font-size: 20px;
     padding: 5px;
     color: #666;
@@ -500,6 +501,31 @@ img{
 
 
 
+.fuelreport {
+  background-color: #fff;
+  width: 65vw;
+  margin: auto;
+  margin-top: 40px;
+  box-shadow: 4px 4px 4px 4px rgba(207, 205, 205, 0.8);
+  transition: box-shadow 0.3s ease; /* Added transition for smooth hover effect */
+}
+.fuelreport:hover{
+  box-shadow: 0 10px 20px rgba(114, 58, 187, 0.774);
+}
+.fuelreport h2{
+  font-size: 23px;
+  color: #e9b913;
+}
+.fuelreport p{
+  font-size: 17px;
+  color: #666;  
+}
+.fuelreport img{
+height: 230px;
+width: 300px;
+
+}
+
 
 
 
@@ -549,9 +575,32 @@ img{
   
   .scrolled .dropdown-item {
     color: #1c1c1c;
-  
-  
-  
+  }
+  .fuelreport {
+    background-color: #fff;
+    width: 80vw;
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: 4px 4px 4px 4px rgba(207, 205, 205, 0.8);
+    transition: box-shadow 0.3s ease; /* Added transition for smooth hover effect */
+   
+  }
+  .fuelreport:hover{
+    box-shadow: 0 10px 20px rgba(114, 58, 187, 0.774);
+  }
+  .fuelreport h2{
+    font-size: 23px;
+    color: #333;
+  }
+  .fuelreport p{
+    font-size: 17px;
+    color: #333;  
+  }
+  .fuelreport img{
+  height: 250px;
+  border:2px solid #e9b913;
+  margin-left:7rem;
+  width: 350px;
   }
 }
 
@@ -690,6 +739,19 @@ img{
     height: 140px;
     width: auto;
    }
+   .fuelreport img{
+    height: 250px;
+    border:2px solid #e9b913;
+    margin:auto;
+    width: 300px;
+    }
+    .single-services{
+      height: 270px;
+    }
+    .single-services p {
+    font-size: 14px;
+      
+    }
 }
 
 
@@ -704,10 +766,14 @@ img{
     margin-left: 0;
   }
 
-  .logo-name {
-    font-size: 1.5rem;
+  .log1 {
+    font-size: 1.2rem;
   }
-
+  .log {
+    
+    
+    font-size: 9px;
+}
   .navbar-toggler {
 
     padding: 3px 6px;
@@ -837,10 +903,22 @@ img{
     height: 100px;
     width: auto;
    }
+
+
+
+
+
    .logos::before{
     width: 130px;
    }
    .logos::after{
     width: 130px;
    }
+
+   .fuelreport img{
+    height: 200px;
+    border:2px solid #e9b913;
+    margin-left:1rem;
+    width: 200px;
+    }
 }

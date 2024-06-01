@@ -294,6 +294,10 @@ i{
 .image-area img{
   width: 80%;
 }
+/* form styling for response */
+.form{
+  display: block;
+}
 .form-area{
   display: flex;
   flex-direction: column;
